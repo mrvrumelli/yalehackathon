@@ -207,8 +207,7 @@ def attempt_factor_143():
 ############################################
 
 def main():
-    token  = 'rings-200.cIHZ9beKfAeC8xcVhTAj7sUvHMTMxAdm'
-    name   = 'mustafa_mert.ozyilmaz@etu.sorbonne-universite.fr'
+    
     provider = QuantumRingsProvider(token=token, name=name)
     backend = provider.get_backend('scarlet_quantum_rings')
 
