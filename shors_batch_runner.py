@@ -10,10 +10,7 @@ from fractions import Fraction
 import time
 from semiprimes import semiprimes
 
-provider = QuantumRingsProvider(
-    token='rings-200.cIHZ9beKfAeC8xcVhTAj7sUvHMTMxAdm',
-    name='mustafa_mert.ozyilmaz@etu.sorbonne-universite.fr'
-)
+
 backend = provider.get_backend("scarlet_quantum_rings")
 shots = 1024
 
