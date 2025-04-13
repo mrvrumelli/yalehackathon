@@ -14,8 +14,8 @@ from semiprimes import semiprimes
 from qiskit.circuit.library import UnitaryGate
 
 provider = QuantumRingsProvider(
-    token='rings-200.cIHZ9beKfAeC8xcVhTAj7sUvHMTMxAdm',
-    name='mustafa_mert.ozyilmaz@etu.sorbonne-universite.fr'
+    token='',
+    name=''
 )
 backend = provider.get_backend("scarlet_quantum_rings")
 shots = 1024
