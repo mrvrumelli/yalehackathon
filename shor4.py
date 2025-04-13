@@ -15,10 +15,7 @@ shots = 512
 TIMEOUT_SECONDS = 120
 MAX_QUBITS = 200
 
-provider = QuantumRingsProvider(
-    token='rings-200.cIHZ9beKfAeC8xcVhTAj7sUvHMTMxAdm',
-    name='mustafa_mert.ozyilmaz@etu.sorbonne-universite.fr'
-)
+
 backend = provider.get_backend("scarlet_quantum_rings")
 
 def iqft_cct(qc, register, n):
