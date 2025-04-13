@@ -270,10 +270,7 @@ def attempt_factor(N, a):
 if __name__ == '__main__':
     from QuantumRingsLib import QuantumRingsProvider, job_monitor
     
-    provider = QuantumRingsProvider(
-        token='rings-200.cIHZ9beKfAeC8xcVhTAj7sUvHMTMxAdm',
-        name='mustafa_mert.ozyilmaz@etu.sorbonne-universite.fr'
-    )
+    
     backend = provider.get_backend("scarlet_quantum_rings")
 
     # We'll just try N=143 from semiprimes_demo
